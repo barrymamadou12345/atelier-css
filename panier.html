@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore - Panier</title>
+  <link rel="stylesheet" href="css/panier.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">TechStore</div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="apropos.html">À Propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="panier.html" class="active">Panier</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section Hero -->
+  <section class="cart-hero">
+    <h1>Votre Panier</h1>
+    <p>Finalisez votre commande</p>
+  </section>
+
+  <!-- Section Panier -->
+  <section class="cart-section">
+    <div class="cart-container">
+      <!-- Articles du panier -->
+      <div class="cart-items">
+        <h2>Articles (3)</h2>
+
+        <div class="cart-item">
+          <img src="images/startup.png" alt="Laptop Pro">
+          <div class="item-details">
+            <h3>Laptop Pro 15"</h3>
+            <p>Processeur haute performance</p>
+          </div>
+          <div class="item-quantity">
+            <button class="qty-btn">-</button>
+            <span>1</span>
+            <button class="qty-btn">+</button>
+          </div>
+          <div class="item-price">1299€</div>
+          <button class="btn-remove">✕</button>
+        </div>
+
+        <div class="cart-item">
+          <img src="images/profil.png" alt="Smartphone X">
+          <div class="item-details">
+            <h3>Smartphone X</h3>
+            <p>Écran OLED 6.5"</p>
+          </div>
+          <div class="item-quantity">
+            <button class="qty-btn">-</button>
+            <span>2</span>
+            <button class="qty-btn">+</button>
+          </div>
+          <div class="item-price">1598€</div>
+          <button class="btn-remove">✕</button>
+        </div>
+
+        <div class="cart-item">
+          <img src="images/vache.png" alt="Casque Audio">
+          <div class="item-details">
+            <h3>Casque Audio Pro</h3>
+            <p>Réduction de bruit active</p>
+          </div>
+          <div class="item-quantity">
+            <button class="qty-btn">-</button>
+            <span>1</span>
+            <button class="qty-btn">+</button>
+          </div>
+          <div class="item-price">249€</div>
+          <button class="btn-remove">✕</button>
+        </div>
+      </div>
+
+      <!-- Résumé de commande -->
+      <div class="cart-summary">
+        <h2>Résumé</h2>
+        <div class="summary-line">
+          <span>Sous-total</span>
+          <span>3146€</span>
+        </div>
+        <div class="summary-line">
+          <span>Livraison</span>
+          <span>Gratuite</span>
+        </div>
+        <div class="summary-line">
+          <span>TVA (20%)</span>
+          <span>629€</span>
+        </div>
+        <hr>
+        <div class="summary-total">
+          <span>Total</span>
+          <span>3775€</span>
+        </div>
+        <button class="btn-checkout">Commander</button>
+        <a href="produits.html" class="btn-continue">Continuer mes achats</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 TechStore - Tous droits réservés</p>
+  </footer>
+</body>
+
+</html>
